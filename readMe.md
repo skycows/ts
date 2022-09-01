@@ -19,7 +19,6 @@ npm i -D typescript
 
 ```sh
  docker pull mongo
- docker pull mongo
  docker run --name mongodb-container -v ~/data:/data/db -d -p 27017:27017 mongo
  docker exec -it mongodb-container bash
  npm i -S mongodb
